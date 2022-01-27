@@ -1,0 +1,25 @@
+Basic Systax of Java:
+1. Object:  An concrete example of Class, have its own State and Behaviors
+2. Class:   A template that indicate the Object of this Class with its State and Behaviors
+3. Method:  Methods are Behaviors of the Class would like to perform, eg: calculation, changing values of variables
+4. Instance Variables:  Each Object has its own Instance Variables, while the value of Instance Variables determine the State of the Object
+
+
+
+
+Creating Object:
+#1. Declaration: Declare a object with its Name and Type
+#2. Construction: use keyword new to construct an object
+
+    Example:
+    public class Puppy{
+        public Puppy(String name){
+            System.out.println("Name of the dog is: "+name);
+        }
+    
+        public static void main(String[] args){
+            Puppy myPuppy = new Puppy("Tom");
+        }
+    }
+
+Refernce 
